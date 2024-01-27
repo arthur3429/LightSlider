@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="slider-wrapper">
+            <div>
+                <img class="ls_desktop-only" src="img/1.webp" alt="Banner" />
+                <img
+                    class="ls_mobile-only"
+                    src="img/1-mobile.webp"
+                    alt="Banner"
+                />
+            </div>
+            <div>
+                <img class="ls_desktop-only" src="img/2.webp" alt="Banner" />
+                <img
+                    class="ls_mobile-only"
+                    src="img/2-mobile.webp"
+                    alt="Banner"
+                />
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+
+        <script>
+            let slider = new LightSlider(
+                document.querySelector(".slider-wrapper")
+            );
+        </script>
+    </body>
+</html>
